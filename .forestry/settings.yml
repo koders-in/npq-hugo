@@ -4,20 +4,20 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Homepage
 - type: directory
   path: exampleSite/content
   label: homepage
   create: all
   match: "**/*"
 - type: heading
-  label: Homepage
+  label: Configuration
 - type: directory
   path: example
   label: Configuration
   create: all
   match: "*.toml"
-- type: heading
-  label: Configuration
 - type: directory
   path: content
   label: Pages
