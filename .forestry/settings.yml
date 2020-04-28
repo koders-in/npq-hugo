@@ -19,7 +19,7 @@ sections:
 - type: heading
   label: Configuration
 - type: directory
-  path: example
+  path: exampleSite
   label: Configuration
   create: all
   match: "*.toml"
